@@ -13,3 +13,6 @@ function bracketMatcher(str) {
     }
     return difference == 0 ? "1" : "0";
 }
+
+console.log(bracketMatcher("(coder)(byte))"));
+console.log(bracketMatcher("(c(oder)) b(yte)"));
