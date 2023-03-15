@@ -4,6 +4,7 @@ public class BracketMatcher {
 
     public static void main(String[] args) {
         System.out.println(bracketMatcher("(coder)(byte))"));
+        System.out.println(bracketMatcher("(c(oder)) b(yte)"));
     }
 
     public static int bracketMatcher(String str) {
