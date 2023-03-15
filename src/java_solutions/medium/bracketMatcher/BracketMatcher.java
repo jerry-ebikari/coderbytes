@@ -1,6 +1,11 @@
-package java.medium.bracketMatcher;
+package java_solutions.medium.bracketMatcher;
 
 public class BracketMatcher {
+
+    public static void main(String[] args) {
+        System.out.println(bracketMatcher("(coder)(byte))"));
+    }
+
     public static int bracketMatcher(String str) {
         int difference = 0;
         for (char c: str.toCharArray()) {
