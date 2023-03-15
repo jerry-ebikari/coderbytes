@@ -1,1 +1,1 @@
-# CoderBytes Problems and Solutions in Java
+# CoderBytes Problems and Solutions in Java and Javascript
